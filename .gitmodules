@@ -7,3 +7,9 @@
 [submodule "simulator/freertos-simulator"]
 	path = simulator/freertos-simulator
 	url = https://github.com/Maldus512/freertos-simulator.git
+[submodule "components/c-spi-drivers"]
+	path = components/c-spi-drivers
+	url = https://github.com/Maldus512/c-spi-drivers.git
+[submodule "components/liblightmodbus-esp"]
+	path = components/liblightmodbus-esp
+	url = https://github.com/Jacajack/liblightmodbus-esp.git
