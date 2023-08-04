@@ -6,7 +6,9 @@
 #include "model/model.h"
 #include "controller/controller.h"
 
+
 static const char *TAG = "Main";
+
 
 void app_main(void) {
     model_t model;
@@ -17,7 +19,7 @@ void app_main(void) {
 
     ESP_LOGI(TAG, "Begin main loop");
     for (;;) {
-        ESP_LOGI(TAG, "Hello world!");
-        vTaskDelay(pdMS_TO_TICKS(1000));
+        controller_manage();
+        vTaskDelay(pdMS_TO_TICKS(1));
     }
 }
